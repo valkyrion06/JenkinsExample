@@ -15,7 +15,7 @@ import java.io.IOException;
 //@Listeners(TestNgListener.class)
 public class LoginTest extends BaseTest {
 
-    @Parameters({"user", "pass"})
+    @Parameters({"browser"})
     @Test
     public void loginTest(String username, String password) {
         NavigationMenu navMenu = new NavigationMenu(driver);

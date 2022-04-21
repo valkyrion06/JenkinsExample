@@ -29,7 +29,7 @@ public class BaseTest {
     @Parameters({"browser"})
     @BeforeClass
     public void setUp(String browser) throws MalformedURLException {
-        System.setProperty("webdriver.chrome.driver", "drivers/chromedriver100");
+        //System.setProperty("webdriver.chrome.driver", "drivers/chromedriver100");
 
 
         ChromeOptions option = new ChromeOptions();
