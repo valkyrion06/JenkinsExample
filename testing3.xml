@@ -4,6 +4,7 @@
     <test name="LoginTests" >
         <parameter name = "user" value = "TestUser" />
         <parameter name = "pass" value = "12345@67890" />
+        <parameter name = "browser" value = "chrome" />
 
         <classes>
             <class name="tests.LoginTest" ></class>
